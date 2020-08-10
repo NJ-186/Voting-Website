@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: rgb(240, 240, 240); 
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+header {
+	font-size: 2.5em;
+	background-color: #ff6347;
+	color:white;
+	min-height: 200px;
+}
+
+header h1 {
+	text-align: center;
+	padding: 40px 0;
+	font-weight: bold;
+}
+
+	
+
+.container{
+	max-width: 70%;
+	min-height:360px;
+	background-color: #2F4F4F;
+	color: white;
+	border:1px black solid;
+	box-shadow: 5px 10px 18px black;
+	position: relative;
+	justify-content: center;
+	padding: 30px 50px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.bottom-section a{
+	text-decoration: none;
+	color: black;
+}
+
+.bottom-section a:visited{
+	color: white;
+}
+
+.bottom-section h2 {
+	font-size: 2.4em;
+	text-align:center;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+.bottom-section p {
+	font-size: 20px;	
+}
+
+ h3{
+	font-size: 2.2em;
+	margin-bottom: 10px;	
+}
+
+.detail {
+	font-size: 1.7em;
+	display: block;
+	margin-bottom:7px; 
+}
+
+input{
+	width: 100%;
+	position: relative;
+	height: 2.2em;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#btn {
+	margin-top: 20px;
+	height: 2.5em;
+	transform: scale(1);
+	position: relative;
+	font-size: 25px;
+}
+
+#btn:hover {
+	transform: scale(0.97); 
+	background-color: black;
+	color: white; 
+	border:none;
+}
+
+
+footer {
+	bottom: 0;
+	border-top: 1px black solid;
+	background-color: rgb(60, 60, 60);
+	height: 80px;
+	color: white;
+	text-align: center;
+}
+
+footer p {
+	font-size: 18px;
+	margin-top: 22px;	
+}
+
+.checklist {
+	margin-top: 20px;
+}
+
+@media(max-width:768px) {
+	header {
+	font-size: 2em;
+	background-color: #ff6347;
+	color:white;
+	min-height: 200px; 
+	}
+
+	header h1 {
+	text-align: center;
+	padding: 45px 0;
+	font-weight: bold;
+	}
+
+	.bottom-section h3{
+	font-size: 1.6em;
+	margin-bottom: 10px;	
+	}
+}
